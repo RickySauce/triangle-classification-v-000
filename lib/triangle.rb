@@ -12,7 +12,7 @@ class Triangle
 
   def kind
     all_sides = self.all_sides.sort
-   if self.all_sides.any? {|side| side <= 0 } || all_sides[0] + all_sides[1] < all_sides[2]
+   if self.all_sides.any? {|side| side <= 0 } || all_sides[0] + all_sides[1] <= all_sides[2]
     raise TriangleError
     end
   end
