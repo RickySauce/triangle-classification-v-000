@@ -8,9 +8,10 @@ class Triangle
     @side_2 = side_2
     @side_3 = side_3
     @all_sides = [@side_1, @side_2, @side_3]
-    binding.pry
+
   end
 
+  binding.pry
   def kind
   end
 end
