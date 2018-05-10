@@ -10,11 +10,11 @@ class Triangle
     @all_sides = [@side_1, @side_2, @side_3]
   end
 
-  #def kind
+  def kind
   #  if self.all_sides.any? {|side| side <= 0 } || if self.all_sides.sort! all_sides[0] + all_sides[1] < all_sides[2]
     #  raise TriangleError
   #  end
-  #end
+  end
 
 class TriangleError < StandardError
 end
