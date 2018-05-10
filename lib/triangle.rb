@@ -17,6 +17,7 @@ class Triangle
   end
 
 class TriangleError < StandardError
+  "wrong fucking triangle"
 end
 
 end
